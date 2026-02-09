@@ -24,7 +24,7 @@ export default function Contact() {
       <PageHero
         title="Contact Us"
         subtitle="We'd love to hear from you"
-        backgroundImage="https://images.unsplash.com/photo-1583484963886-cfe2bff2945f?w=1920&q=80"
+        backgroundImage="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=1920&q=80"
       />
 
       <section className="py-24 bg-ivory-100">
@@ -38,9 +38,9 @@ export default function Contact() {
                   Visit Our Flagship
                 </h2>
                 <p className="font-sans text-sm text-gray-500 leading-relaxed mb-10">
-                  Whether you're looking for the perfect engagement ring, a bespoke
-                  creation, or expert care for your treasured pieces, our concierge
-                  team is here to assist.
+                  Whether you're searching for the perfect diamond engagement ring, a bespoke
+                  diamond creation, or expert care for your treasured pieces, our diamond
+                  concierge team is here to assist.
                 </p>
 
                 <div className="space-y-6">

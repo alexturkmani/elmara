@@ -11,7 +11,7 @@ export default function Footer() {
             Join the Elmara World
           </h3>
           <p className="font-sans text-sm text-gray-400 mb-8 max-w-md mx-auto">
-            Subscribe for exclusive access to new collections, private events, and bespoke offers.
+              Subscribe for exclusive access to new diamond collections, private viewings, and bespoke offers.
           </p>
           <form className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
             <input
@@ -33,7 +33,7 @@ export default function Footer() {
           <div>
             <h2 className="font-serif text-3xl tracking-ultra-wide text-tiffany-300 mb-4">ELMARA</h2>
             <p className="font-sans text-sm text-gray-400 leading-relaxed mb-6">
-              Timeless elegance crafted for the modern soul. Since 1987, Elmara has been the epitome of luxury jewelry.
+              Timeless diamond luxury crafted for the modern soul. Since 1987, Elmara has been the epitome of fine diamond jewelry.
             </p>
             <div className="flex gap-4">
               {[Instagram, Facebook, Twitter].map((Icon, i) => (

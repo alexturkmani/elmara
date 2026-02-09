@@ -8,8 +8,8 @@ export default function ShopByCategory() {
     <div>
       <PageHero
         title="Shop by Category"
-        subtitle="Find the perfect piece for every occasion"
-        backgroundImage="https://images.unsplash.com/photo-1600721391689-2564bb8055de?w=1920&q=80"
+        subtitle="Exceptional diamonds in every form"
+        backgroundImage="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=1920&q=80"
       />
 
       {/* Categories Grid */}
@@ -92,12 +92,12 @@ export default function ShopByCategory() {
         <div className="max-w-5xl mx-auto px-6 text-center">
           <FadeIn>
             <h3 className="font-serif text-3xl text-gray-900 font-light mb-6">
-              Every Category, One Standard: <span className="text-gradient italic">Excellence</span>
+              Every Diamond, One Standard: <span className="text-gradient italic">Perfection</span>
             </h3>
             <p className="font-sans text-sm text-gray-500 leading-relaxed max-w-2xl mx-auto">
-              Whether you're searching for the perfect engagement ring, a statement necklace,
-              or everyday earrings, each Elmara piece is handcrafted with the same unwavering
-              dedication to quality and beauty.
+              Whether you're searching for a flawless solitaire, a dazzling diamond necklace,
+              or classic diamond studs, each Elmara stone is GIA-certified and set with the same
+              unwavering dedication to brilliance and beauty.
             </p>
           </FadeIn>
         </div>

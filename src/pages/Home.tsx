@@ -28,7 +28,7 @@ export default function Home() {
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: `url(https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=1920&q=80)`,
+              backgroundImage: `url(https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=1920&q=80)`,
             }}
           >
             <div className="absolute inset-0 bg-gradient-to-b from-gray-900/60 via-gray-900/40 to-gray-900/70" />
@@ -45,7 +45,7 @@ export default function Home() {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="font-sans text-xs tracking-super-wide uppercase text-tiffany-300 mb-6"
           >
-            Luxury Jewelry House — Est. 1987
+            Luxury Diamond House — Est. 1987
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -61,7 +61,7 @@ export default function Home() {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="font-serif text-xl md:text-2xl text-ivory-200/90 italic font-light max-w-2xl mb-10"
           >
-            Timeless elegance crafted for the modern soul
+            Where every diamond tells a story of forever
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -97,10 +97,10 @@ export default function Home() {
       <section className="bg-tiffany-500 py-5">
         <div className="max-w-7xl mx-auto px-6 flex flex-wrap justify-center gap-8 md:gap-16">
           {[
-            { icon: Diamond, text: 'Ethically Sourced' },
+            { icon: Diamond, text: 'GIA Certified Diamonds' },
             { icon: Award, text: 'Lifetime Warranty' },
             { icon: Globe, text: 'Worldwide Shipping' },
-            { icon: Sparkles, text: 'Bespoke Service' },
+            { icon: Sparkles, text: 'Custom Diamond Settings' },
           ].map(({ icon: Icon, text }) => (
             <div key={text} className="flex items-center gap-2 text-ivory-100">
               <Icon size={16} strokeWidth={1.5} />
@@ -115,7 +115,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <FadeIn className="text-center mb-16">
             <p className="section-subheading">Discover</p>
-            <h2 className="section-heading">Our Collections</h2>
+            <h2 className="section-heading">Diamond Collections</h2>
           </FadeIn>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -163,7 +163,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <FadeIn className="text-center mb-16">
             <p className="section-subheading">Curated for You</p>
-            <h2 className="section-heading">Featured Pieces</h2>
+            <h2 className="section-heading">Featured Diamonds</h2>
           </FadeIn>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
@@ -215,7 +215,7 @@ export default function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1610694955371-d4b52a3b52?w=1920&q=80)',
+            backgroundImage: 'url(https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=1920&q=80)',
           }}
         >
           <div className="absolute inset-0 bg-gray-900/70" />
@@ -227,8 +227,8 @@ export default function Home() {
               The Art of Craftsmanship
             </h2>
             <p className="font-sans text-sm md:text-base text-gray-300 leading-relaxed max-w-2xl mx-auto mb-10">
-              Each Elmara piece passes through the hands of our master artisans over 120 meticulous hours.
-              From sketch to setting, every detail is guided by tradition and perfected by passion.
+              Each Elmara diamond is hand-selected from the top 1% of the world's finest stones, then set by our master artisans
+              over 120 meticulous hours. From rough stone to radiant masterpiece, every facet is perfected by passion.
             </p>
             <Link to="/about" className="btn-primary">
               Our Story
@@ -243,8 +243,8 @@ export default function Home() {
           <ScaleIn>
             <div className="w-16 h-[1px] bg-tiffany-500 mx-auto mb-10" />
             <blockquote className="font-serif text-2xl md:text-3xl text-gray-800 font-light italic leading-relaxed mb-8">
-              "Wearing Elmara feels like carrying a piece of art. Their Celestial Radiance necklace
-              has become my most treasured possession — it's more than jewelry, it's an emotion."
+              "Wearing Elmara feels like carrying a piece of art. Their Rivière diamond necklace
+              has become my most treasured possession — every diamond catches light like a tiny star."
             </blockquote>
             <cite className="not-italic">
               <p className="font-sans text-sm font-semibold text-gray-900 tracking-wider uppercase">

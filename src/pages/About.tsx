@@ -7,7 +7,7 @@ export default function About() {
       <PageHero
         title="Our Story"
         subtitle="Crafting beauty since 1987"
-        backgroundImage="https://images.unsplash.com/photo-1610694955371-d4b52a3b52?w=1920&q=80"
+        backgroundImage="https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=1920&q=80"
       />
 
       {/* Intro */}
@@ -16,13 +16,13 @@ export default function About() {
           <FadeIn>
             <p className="section-subheading">The House of Elmara</p>
             <h2 className="font-serif text-4xl md:text-5xl text-gray-900 font-light tracking-wide mb-8">
-              Where Heritage Meets <span className="italic text-tiffany-600">Innovation</span>
+              Where Diamonds Meet <span className="italic text-tiffany-600">Artistry</span>
             </h2>
             <p className="font-sans text-base text-gray-500 leading-relaxed max-w-2xl mx-auto">
-              Founded in 1987 by master jeweler Isabelle Elmara in the heart of Paris,
+              Founded in 1987 by master diamantaire Isabelle Elmara in the heart of Paris,
               Elmara has grown from a single atelier to an internationally revered luxury
-              jewelry house. Our philosophy remains unchanged: to create jewelry that
-              transcends time, blending impeccable craftsmanship with contemporary elegance.
+              diamond house. Our philosophy remains unchanged: to source the world's finest
+              diamonds and set them with artistry that transcends time.
             </p>
           </FadeIn>
         </div>
@@ -34,7 +34,7 @@ export default function About() {
           <div
             className="bg-cover bg-center min-h-[400px]"
             style={{
-              backgroundImage: 'url(https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=1000&q=80)',
+              backgroundImage: 'url(https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=1000&q=80)',
             }}
           />
           <div className="flex items-center px-8 md:px-16 lg:px-20 py-16">
@@ -44,15 +44,15 @@ export default function About() {
                 120 Hours of Devotion
               </h3>
               <p className="font-sans text-sm text-gray-500 leading-relaxed mb-6">
-                Every Elmara piece is the product of over 120 hours of meticulous handwork.
-                Our master artisans, many of whom have perfected their craft over decades,
-                use techniques passed down through generations while embracing innovation
-                to push the boundaries of what's possible.
+                Every Elmara diamond is hand-selected and every setting is the product of over 120 hours of meticulous handwork.
+                Our master diamond setters, many of whom have perfected their craft over decades,
+                use techniques passed down through generations while employing cutting-edge technology
+                to maximize each diamond's fire and brilliance.
               </p>
               <p className="font-sans text-sm text-gray-500 leading-relaxed">
                 From the initial sketch to the final polish, each step is guided by an
-                uncompromising commitment to excellence. We use only the finest materials
-                — conflict-free diamonds, ethically sourced gemstones, and recycled precious metals.
+                uncompromising commitment to excellence. We use only GIA-certified conflict-free
+                diamonds and recycled precious metals — because true luxury demands responsibility.
               </p>
             </FadeIn>
           </div>
@@ -81,7 +81,7 @@ export default function About() {
           <div
             className="bg-cover bg-center min-h-[400px] order-1 lg:order-2"
             style={{
-              backgroundImage: 'url(https://images.unsplash.com/photo-1600721391689-2564bb8055de?w=1000&q=80)',
+              backgroundImage: 'url(https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=1000&q=80)',
             }}
           />
         </div>
@@ -100,32 +100,32 @@ export default function About() {
               {
                 icon: Diamond,
                 title: 'Exceptional Quality',
-                description: 'Only the top 1% of gemstones meet our rigorous selection criteria, ensuring every piece radiates unparalleled brilliance.',
+                description: 'Only the top 1% of diamonds meet our rigorous selection criteria — each stone is GIA-certified to ensure unparalleled brilliance.',
               },
               {
                 icon: Heart,
                 title: 'Passion-Driven Design',
-                description: 'Our designers draw from art, nature, and architecture to create pieces that are not just worn — they are experienced.',
+                description: 'Our designers draw from art, nature, and architecture to create diamond settings that are not just worn — they are experienced.',
               },
               {
                 icon: Leaf,
                 title: 'Sustainability',
-                description: 'We are committed to responsible sourcing, carbon-neutral operations, and the preservation of our planet for future generations.',
+                description: 'Every Elmara diamond is conflict-free and ethically sourced. We are committed to carbon-neutral operations and preserving our planet.',
               },
               {
                 icon: Users,
                 title: 'Community',
-                description: 'Through our foundation, we support artisan communities and fund education programs in gemstone-producing regions worldwide.',
+                description: 'Through our foundation, we support artisan communities and fund education programs in diamond-producing regions worldwide.',
               },
               {
                 icon: Gem,
                 title: 'Innovation',
-                description: 'Cutting-edge technology meets traditional techniques. Our proprietary settings maximize light performance and comfort.',
+                description: 'Cutting-edge diamond analysis meets traditional setting techniques. Our proprietary mounts maximize each diamond\'s light return and fire.',
               },
               {
                 icon: Clock,
                 title: 'Timelessness',
-                description: 'Trends come and go. Elmara pieces are designed to be cherished today, tomorrow, and by generations yet to come.',
+                description: 'Diamonds are forever, and so are Elmara pieces — designed to be cherished today, tomorrow, and by generations yet to come.',
               },
             ].map(({ icon: Icon, title, description }, i) => (
               <ScaleIn key={title} delay={i * 0.1}>

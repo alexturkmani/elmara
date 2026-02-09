@@ -9,8 +9,8 @@ export default function ShopByCollection() {
     <div>
       <PageHero
         title="Our Collections"
-        subtitle="Stories told through precious stones and metals"
-        backgroundImage="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=1920&q=80"
+        subtitle="Each cut tells a different story of brilliance"
+        backgroundImage="https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=1920&q=80"
       />
 
       {/* Collections */}
@@ -67,8 +67,8 @@ export default function ShopByCollection() {
               Can't Find What You're Looking For?
             </h3>
             <p className="font-sans text-sm text-ivory-200/80 leading-relaxed mb-10 max-w-lg mx-auto">
-              Our master artisans can create a bespoke piece tailored exclusively to your vision.
-              Schedule a private consultation to begin your custom journey.
+              Our master diamantaires can source and set a bespoke diamond creation tailored exclusively to your vision.
+              Schedule a private consultation to begin your custom diamond journey.
             </p>
             <Link to="/contact" className="inline-block px-10 py-4 bg-ivory-100 text-tiffany-700 font-sans text-xs font-semibold tracking-ultra-wide uppercase transition-all duration-500 hover:bg-white hover:shadow-lg">
               Book a Consultation
